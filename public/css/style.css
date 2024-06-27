@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --body-color: #575757;
+    --body-color: #7a7a7a;
     --title-color: #222222;
     --nav-color: #868686;
     --header-background: #000000;
@@ -99,6 +99,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
+    row-gap: 20px;
 }
 
 .tech .tech-icon {
@@ -111,3 +112,18 @@ main {
     width: 80px;
 }
 
+.text .title {
+    font-size: 50px;
+    font-weight: 600;
+    background: -webkit-linear-gradient( rgba(78,18,190) 0%, rgb(255, 60, 0) 30%, rgb(255, 0, 98) 0%, rgba(18,151,186) 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tech .technologies {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+    border-top: solid 0.5px #c0c0c0;
+    padding-top: 10px;
+}
