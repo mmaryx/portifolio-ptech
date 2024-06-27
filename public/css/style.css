@@ -132,6 +132,11 @@ main {
     width: 90px;
 }
 
+.text p {
+    margin: 10px 0 30px 0;
+    text-align: justify;
+}
+
 .text .title {
     font-size: 50px;
     font-weight: 600;
